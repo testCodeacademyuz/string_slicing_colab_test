@@ -3,6 +3,7 @@ string_slicing/__init__.py
 string_slicing/checker.py
 string_slicing/test01.py
 string_slicing/test02.py
+string_slicing/test03.py
 string_slicing/test_cases.py
 string_slicing/tests.py
 string_slicing.egg-info/PKG-INFO

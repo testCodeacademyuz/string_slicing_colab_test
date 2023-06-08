@@ -20,7 +20,25 @@ test_cases = {
         },
         {
             "input": ["python"],
-            "expected": "ython"
+            "expected": "thon"
         },
-    ]
+        {
+            "input": ["django"],
+            "expected": "ango"
+        },
+    ],
+    "taskThree":[
+        {
+            "input": ["development"],
+            "expected": "evelopmen"
+        },
+        {
+            "input": ["python"],
+            "expected": "ytho"
+        },
+        {
+            "input": ["google"],
+            "expected": "oogl"
+        },
+    ],
 }
