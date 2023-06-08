@@ -6,6 +6,7 @@ string_slicing/test02.py
 string_slicing/test03.py
 string_slicing/test_cases.py
 string_slicing/tests.py
+string_slicing/tests1.py
 string_slicing.egg-info/PKG-INFO
 string_slicing.egg-info/SOURCES.txt
 string_slicing.egg-info/dependency_links.txt
