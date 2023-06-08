@@ -2,25 +2,25 @@ test_cases = {
     "taskOne":[
         {
             "input": ["codeacademy"],
-            "expected": ["code"]
+            "expected": "code"
         },
         {
             "input": ["python"],
-            "expected": ["pyth"]
+            "expected": "pyth"
         },
         {
             "input": ["code"],
-            "expected": ["code"]
+            "expected": "code"
         },
     ],
     "taskTwo":[
         {
             "input": ["hello world"],
-            "expected": ["orld"]
+            "expected": "orld"
         },
         {
             "input": ["python"],
-            "expected": ["ython"]
+            "expected": "ython"
         },
     ]
 }

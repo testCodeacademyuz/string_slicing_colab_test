@@ -18,9 +18,9 @@ class TaskOne(CheckSolution):
             excepted = test_case["expected"]
 
             result = {
-                "input": test_case["input"],
+                "input": map(str, test_case["input"]),
                 "answer": answer,
-                "expected": ', '.join(excepted),
+                "expected": excepted,
                 "isSolved": answer == excepted
             }
             results.append(result)
