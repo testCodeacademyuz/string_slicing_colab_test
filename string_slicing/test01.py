@@ -13,7 +13,7 @@ class TaskOne(CheckSolution):
         for test_case in test_cases[task]:
             try:
                 inputs = tuple(test_case["input"])
-                answer = self.solution(*inputs) 
+                answer = solution(*inputs) 
             except:
                 print(*inputs)
                 answer = "None"
