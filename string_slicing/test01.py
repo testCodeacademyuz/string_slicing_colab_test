@@ -32,7 +32,7 @@ class TaskOne(CheckSolution):
         self.checking(tg_username, isSolved, self.homework_name)
         print("-" * 50)
 
-        for i, test_case in enumerate(test_cases, 1):
+        for i, test_case in enumerate(results, 1):
             emoji = "✅" if test_case["isSolved"] else "❌"
             print(f"{emoji} Test: {i}")
             if not test_case["isSolved"]:
