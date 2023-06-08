@@ -1,9 +1,9 @@
 from string_slicing import CheckSolution
 from string_slicing import test_cases
 
-task = "taskOne"
+task = "taskTwo"
 
-class TaskOne(CheckSolution):
+class TaskTwo(CheckSolution):
     def __init__(self, task_name, homework_name):
         self.homework_name = homework_name
         super().__init__(task_name)
