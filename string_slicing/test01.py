@@ -12,7 +12,8 @@ class TaskOne(CheckSolution):
         results = []
         for test_case in test_cases[task]:
             try:
-                answer = self.solution(*test_case["input"]) 
+                inputs = tuple(test_case["input"])
+                answer = self.solution(*inputs) 
             except:
                 answer = "None"
             excepted = test_case["expected"]
