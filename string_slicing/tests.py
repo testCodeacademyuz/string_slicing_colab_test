@@ -1,4 +1,4 @@
-from logical_operators import (
+from string_slicing import (
     TaskOne
 )
 

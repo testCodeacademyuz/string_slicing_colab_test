@@ -1,5 +1,5 @@
-from logical_operators import CheckSolution
-from logical_operators import test_cases
+from string_slicing import CheckSolution
+from string_slicing import test_cases
 
 task = "taskOne"
 
