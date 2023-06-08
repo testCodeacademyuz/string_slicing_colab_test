@@ -29,8 +29,6 @@ class TaskOne(CheckSolution):
     def check(self, solution, tg_username):
         results = self.test_cases_runner()
         isSolved = all([result["isSolved"] for result in results])
-        
-        isSolved = all(isSolved)
         self.checking(tg_username, isSolved, self.homework_name)
         print("-" * 50)
 
