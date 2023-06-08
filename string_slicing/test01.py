@@ -8,7 +8,7 @@ class TaskOne(CheckSolution):
         self.homework_name = homework_name
         super().__init__(task_name)
     
-    def test_cases_runner(self):
+    def test_cases_runner(self, solution):
         results = []
         for test_case in test_cases[task]:
             try:
@@ -29,7 +29,7 @@ class TaskOne(CheckSolution):
         return results
     
     def check(self, solution, tg_username):
-        results = self.test_cases_runner()
+        results = self.test_cases_runner(solution)
         isSolved = all([result["isSolved"] for result in results])
         self.checking(tg_username, isSolved, self.homework_name)
         print("-" * 50)
