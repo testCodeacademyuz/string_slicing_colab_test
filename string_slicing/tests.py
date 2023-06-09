@@ -43,8 +43,22 @@ class TestCaseRunner(CheckSolution):
 task = [
     "taskOne",
     "taskTwo",
-    "taskThree",]
+    "taskThree",
+    "taskFour",
+    "taskFive",
+    "taskSix",
+    "taskSeven",
+    "taskEight",
+    "taskNine",
+    "taskTen",]
 
 q1 = TestCaseRunner("slicing01", "string_slicing", task[0])
 q2 = TestCaseRunner("slicing02", "string_slicing", task[1])
 q3 = TestCaseRunner("slicing03", "string_slicing", task[2])
+q4 = TestCaseRunner("slicing04", "string_slicing", task[3])
+q5 = TestCaseRunner("slicing05", "string_slicing", task[4])
+q6 = TestCaseRunner("slicing06", "string_slicing", task[5])
+q7 = TestCaseRunner("slicing07", "string_slicing", task[6])
+q8 = TestCaseRunner("slicing08", "string_slicing", task[7])
+q9 = TestCaseRunner("slicing09", "string_slicing", task[8])
+q10 = TestCaseRunner("slicing10", "string_slicing", task[9])
