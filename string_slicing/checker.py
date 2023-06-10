@@ -2,6 +2,12 @@ import requests
 
 class CheckSolution:
     def __init__(self, task_name):
+        """
+        This class is used to check and send results to server.
+
+        Args:
+            
+        """
         self.task_name = task_name
         self.url = "https://calms.pythonanywhere.com/reporter/attempt/"
     

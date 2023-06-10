@@ -3,11 +3,28 @@ from string_slicing import test_cases
 
 class TestCaseRunner(CheckSolution):
     def __init__(self, task_name, homework_name, task):
+        """
+        This class is used to run test cases.
+
+        Args:
+            task_name (str): Task name(Example: task01)
+            homework_name (str): Homework name(Example: SlicingHomework)
+            task (str): Test case name(Example: taskOne)
+        """
         self.homework_name = homework_name
         self.task = task
         super().__init__(task_name)
     
     def test_cases_runner(self, solution):
+        """
+        This method is used to run test cases.
+
+        Args:
+            solution (function): Student's solution function
+        
+        Returns:
+            list: List of dictionaries
+        """
         results = []
         for test_case in test_cases[self.task]:
             try:
@@ -27,6 +44,13 @@ class TestCaseRunner(CheckSolution):
         return results
     
     def check(self, solution, tg_username):
+        """
+        This method is used to check student's solution.
+
+        Args:
+            solution (function): Student's solution function
+            tg_username (str): Telegram username
+        """
         results = self.test_cases_runner(solution)
         isSolved = all([result["isSolved"] for result in results])
         self.checking(tg_username, isSolved, self.homework_name)
